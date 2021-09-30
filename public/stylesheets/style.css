@@ -178,11 +178,6 @@ a.edit-link {
     color:rgba(255, 255, 255, 0.342)
 }
 
-li {
-    margin: 1px;
-    padding: 1px;
-}
-
 form.login-form {
     margin: 20px;
     padding: 20px;
