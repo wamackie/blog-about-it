@@ -18,6 +18,10 @@ body {
     border-radius: 25px;
 }
 
+h1#blog-header {
+    margin-left: 20px;
+}
+
 a {
   text-decoration: none;
   color: #ffffff;
@@ -27,6 +31,10 @@ a {
 
 a:hover {
   color: #3486eb;
+}
+
+.a-header {
+    margin-right: 30px;
 }
 
 button {
@@ -106,9 +114,8 @@ main {
   cursor: pointer;
   text-decoration: none;
   color: #fdfdfd;
-  font-size: 100%;
+  font-size: 15px;
   font-weight: bold;
-  margin-left: 16px;
 }
 
 .btn-no-style:hover {
