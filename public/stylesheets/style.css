@@ -116,14 +116,6 @@ main {
   color: #3486eb;
 }
 
-.delete-post-btn {
-  background-color: #d41414;
-}
-
-.delete-post-btn:hover {
-  background-color: #ff643d;
-}
-
 .post {
   margin-bottom: 2%;
   line-height: 150%;
@@ -145,12 +137,11 @@ main {
 }
 
 .comment {
-  padding: 1%;
-  margin-bottom: 1%;
-}
-
-.comment:nth-child(odd) {
-  background-color: #fff5eb;
+  padding: 10px;
+  margin: 5px;
+  width: 400px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .comment .meta {
@@ -182,6 +173,11 @@ section.posts {
     color: rgba(255, 255, 255, 0);
 }
 
+a.edit-link {
+    margin-left: 40px;
+    color:rgba(255, 255, 255, 0.342)
+}
+
 li {
     margin: 1px;
     padding: 1px;
@@ -201,6 +197,12 @@ form.signup-form {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+#dashboard-article {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
 
 article.posted {
     margin: 20px;
