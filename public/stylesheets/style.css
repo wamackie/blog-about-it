@@ -2,19 +2,27 @@
   box-sizing: border-box;
 }
 
-body, html {
+body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
-  color: #333;
+  font-family: helvetica;
+  background: rgb(1,27,55);
+  background: linear-gradient(90deg, rgba(1,27,55,1) 0%, rgba(9,62,121,1) 19%, rgba(2,17,33,1) 100%);
+  color: #d6d6d6;
+}
+
+#header {
+    background-color: black;
+    height: 80px;
+    border-radius: 25px;
 }
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: #ffffff;
   font-weight: bold;
-  transition: color .1s;
+  transition: color 1s;
 }
 
 a:hover {
@@ -22,18 +30,18 @@ a:hover {
 }
 
 button {
-  background-color: #225ca3;
+  background-color: #000000;
   border: 0;
   padding: 1%;
   color: white;
   font-weight: bold;
-  transition: background-color .1s;
+  transition: color 1s;
   cursor: pointer;
   border-radius: 5px;
 }
 
 button:hover {
-  background-color: #3486eb;
+  color: #3486eb;
 }
 
 .post-list {
@@ -83,7 +91,7 @@ header {
 }
 
 header h1 {
-  font-size: 1em;
+  font-size: 2em;
 }
 
 main {
@@ -97,10 +105,9 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: #fdfdfd;
   font-size: 100%;
   font-weight: bold;
-  transition: color .1s;
   margin-left: 16px;
 }
 
@@ -133,15 +140,6 @@ main {
   margin: -1.5% 0 2% 0;
 }
 
-.upvote-btn {
-  background-color: #197d0f;
-  transition: background-color .1s;
-}
-
-.upvote-btn:hover {
-  background-color: #1f9c13;
-}
-
 .comment-form {
   margin-bottom: 5%;
 }
@@ -169,10 +167,48 @@ main {
   margin-bottom: 5%;
 }
 
-footer {
-  border-top: 1px solid #ccc;
-  display: flex;
-  justify-content: center;
-  padding: 1%;
-  font-size: 110%;
+.posts {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+section.posts {
+    color: white;
+}
+
+::marker {
+    color: rgba(255, 255, 255, 0);
+}
+
+li {
+    margin: 1px;
+    padding: 1px;
+}
+
+form.login-form {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+form.signup-form {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+article.posted {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+form.comment-form {
+    margin: 25px;
 }
