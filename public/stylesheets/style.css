@@ -213,6 +213,10 @@ article.posted {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+input#post-url {
+    height: 80px;
+}
+
 form.comment-form {
     margin: 25px;
 }
