@@ -7,6 +7,7 @@ Creates a CMS style blog where users can share IT related content. Users are the
 * [Installation](#installation)
 * [License](#license)
 * [Built With](#built-with)
+* [Heroku](#heroku)
 * [Questions](#questions)
 * [Credits](#credits)
 
@@ -27,6 +28,9 @@ This application uses the MIT license.
 * MySQL2
 * Sequelize
 * Nodemon
+
+## Heroku
+[![Heroku](assets/images/screenshot1.png)](https://thawing-headland-61830.herokuapp.com/ "Heroku")
 
 ## Questions
 Feel free to contact regarding any questions you may have.<br>
